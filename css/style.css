@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  /* background-color: aquamarine; */
+  width: 1140px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+/* Navbar Styles Start */
+.navbar {
+  width: 100%;
+  height: 100px;
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+/* Navbar Styles End */
+
+.banner-container {
+  display: flex;
+  background-color: #feeae9;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.left-banner-section {
+  /* background-color: aqua; */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 55%;
+}
+.left-banner-section p {
+  color: gray;
+}
+.price {
+  color: #ff1b74;
+}
+.banner-btn {
+  width: 150px;
+  padding: 10px 40px;
+  background-color: #ff1b74;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.right-banner-section {
+  width: 40%;
+  padding: 50px;
+  padding-right: 0;
+  /* background-color: blueviolet; */
+}
+.hero-tv {
+  width: 100%;
+}
+
+.category-section {
+  width: 100%;
+  /* background-color: #f00; */
+}
+.category-heading {
+  margin: 30px 0;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-between;
+  gap: 20px;
+}
+.card {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  background-color: #ff9c35;
+  width: 33%;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.bag {
+  background-color: #ff1b74;
+}
+.shoe {
+  background-color: #3f07f8;
+}
