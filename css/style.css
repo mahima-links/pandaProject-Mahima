@@ -25,7 +25,8 @@
 }
 /* Navbar Styles End */
 
-.banner-container {
+.banner-container,
+.newsletter-container {
   display: flex;
   background-color: #feeae9;
   border-radius: 20px;
@@ -46,7 +47,8 @@
 .price {
   color: #ff1b74;
 }
-.banner-btn {
+.banner-btn,
+.shoes-btn {
   width: 150px;
   padding: 10px 40px;
   background-color: #ff1b74;
@@ -54,6 +56,10 @@
   border-radius: 5px;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.banner-btn {
+  border: none;
 }
 
 .right-banner-section {
@@ -66,11 +72,14 @@
   width: 100%;
 }
 
-.category-section {
+.category-section,
+.shoes-section {
   width: 100%;
   /* background-color: #f00; */
 }
-.category-heading {
+.category-heading,
+.shoes-heading,
+.backpack-heading {
   margin: 30px 0;
 }
 .cards {
@@ -78,21 +87,75 @@
   display: flex;
   /* background-color: aqua; */
   justify-content: space-between;
-  gap: 20px;
+  gap: 60px;
+  margin-bottom: 30px;
 }
 .card {
   display: flex;
-  color: #fff;
   align-items: center;
-  background-color: #ff9c35;
+  /* background-color: #ff9c35; */
   width: 33%;
   border-radius: 10px;
   justify-content: space-between;
   padding: 10px 20px;
 }
+.watch {
+  background-color: #ff9c35;
+  color: #fff;
+}
 .bag {
   background-color: #ff1b74;
+  color: #fff;
 }
 .shoe {
   background-color: #3f07f8;
+  color: #fff;
+}
+.shoes-card,
+.backpack-card {
+  flex-direction: column;
+  border: 1px solid gray;
+  gap: 15px;
+  padding: 10px;
+}
+.shoes-card,
+.backpack-card p {
+  text-align: center;
+}
+.shoes-btn {
+  background-color: black;
+  padding: 7px 14px;
+  margin-bottom: 20px;
+}
+.backpack-section {
+  margin-bottom: 80px;
+}
+.newsletter-container {
+  flex-direction: column;
+  padding: 100px 150px;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 20px;
+  height: 65%;
+}
+.newsletter-container p {
+  margin: 10px 0;
+  color: gray;
+}
+.newsletter-container form {
+  display: flex;
+  width: 70%;
+}
+#email {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 100%;
+}
+.btn-send {
+  width: 70px;
+  border: none;
+  background-color: #ff1b74;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
 }
